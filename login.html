@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Experio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* FULL SCREEN */
+body {
+  height: 100vh;
+  display: flex;
+}
+
+/* LEFT SIDE (SOFT GRADIENT MATCHING IMAGE) */
+.left {
+  width: 50%;
+  background: linear-gradient(135deg, #9f8aff, #a095ff, #9e89f8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* IMAGE */
+.left img {
+  width: 65%;
+  filter: drop-shadow(0 20px 40px rgba(139, 92, 246, 0.25));
+}
+
+/* RIGHT SIDE */
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+/* FORM BOX */
+.form-box {
+  width: 350px;
+}
+
+/* BRAND */
+.brand {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg,#8b5cf6,#ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* TEXT */
+.form-box h2 {
+  margin-bottom: 5px;
+}
+
+.form-box p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* INPUT */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #8b5cf6;
+  box-shadow: 0 0 5px rgba(139, 92, 246, 0.2);
+}
+
+/* BUTTON */
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg,#8b5cf6,#ec4899);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(139,92,246,0.3);
+}
+
+/* FOOTER */
+.footer-text {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.footer-text a {
+  color: #8b5cf6;
+  text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<!-- LEFT SIDE -->
+<div class="left">
+  <!-- Replace with your image -->
+  <img src="login.png" alt="Login Illustration">
+</div>
+
+<!-- RIGHT SIDE -->
+<div class="right">
+  <div class="form-box">
+
+    <div class="brand">Experio</div>
+
+    <h2>Welcome Back 👋</h2>
+    <p>Login to continue your journey</p>
+
+    <input type="email" placeholder="Email address">
+    <input type="password" placeholder="Password">
+
+    <button class="btn">Login</button>
+
+    <div class="footer-text">
+      Don’t have an account? <a href="signup.html">Sign Up</a>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Up - Experio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+}
+
+/* LEFT SIDE */
+.left {
+  width: 50%;
+  background: linear-gradient(135deg, #ff77ff, #ff97d2, #ffb7e9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left img {
+  width: 65%;
+}
+
+/* RIGHT SIDE */
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+/* FORM */
+.form-box {
+  width: 350px;
+}
+
+/* 🔥 BRAND TITLE */
+.brand {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg,#f5a6cd,#8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* TEXT */
+.form-box p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* INPUT */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* BUTTON */
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg,#e9abca,#8b5cf6);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer-text {
+  margin-top: 15px;
+  font-size: 13px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="left">
+  <img src="signup.png">
+</div>
+
+<div class="right">
+  <div class="form-box">
+
+    <!-- 🔥 Experio Heading -->
+    <div class="brand">Experio</div>
+
+    <h2>Create Account 🚀</h2>
+    <p>Start your journey today</p>
+
+    <input type="text" placeholder="Full Name">
+    <input type="email" placeholder="Email address">
+    <input type="password" placeholder="Password">
+
+    <button class="btn">Sign Up</button>
+
+    <div class="footer-text">
+      Already have an account? <a href="login.html">Login</a>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
